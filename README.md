@@ -41,6 +41,7 @@ A collection of my projects from **Scrimba’s Frontend Developer Career Path**,
 
 - [Module 11 – React Basics](#module-11--react-basics)
 
+  - [Rain Business Card V2](#rain-business-card-v2)
   - [Tenzies](#tenzies)
   - [Assembly Endgame](#assembly-endgame)
   - [Quizzical](#quizzical)
@@ -286,7 +287,7 @@ _Level up Responsive Design skills._
 
 <p align="center"> 
   <a href="https://real-nft-site.netlify.app/" target="_blank"> 
-    <img src="images/nft-site.png" alt="Rain's NFT Site preview" style="width:45%;"/> 
+    <img src="images/nft-site.png" alt="NFT Site preview" style="width:45%;"/> 
   </a> 
 </p>
 
@@ -380,6 +381,32 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 ## Module 11 – React Basics
 
 _Learn the basics of React._
+
+### Rain Business Card V2
+
+<p align="center"> 
+  <a href="https://rain-business-card-v2.netlify.app/" target="_blank"> 
+    <img src="images/rain-business-card-v2.png" alt="Rain's Business Card Version 2 preview" style="width:45%;"/> 
+  </a> 
+</p>
+
+**Links:**
+
+- <a href="https://github.com/hello-rain/scrimba-frontend-projects/tree/main/react-basics/rain-business-card-v2" target="_blank" rel="noopener noreferrer">Code</a>
+- <a href="https://rain-business-card-v2.netlify.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
+- [Back to Table of Contents](#table-of-contents)
+
+**Requirements:**
+
+- Build a personal business card using React components
+- Display profile photo, name, role, and contact buttons
+- Include an "About" and "Interests" section
+- Use basic CSS for layout and styling
+
+**Author:**  
+Scrimba – [@hello-rain](https://github.com/hello-rain)
+
+---
 
 ### Tenzies
 
