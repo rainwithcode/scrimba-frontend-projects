@@ -45,6 +45,7 @@
   /* ===========================
      SPACING SCALE
      =========================== */
+  --size-300: 0.5rem;
   --size-600: 1rem;
 }
 
@@ -69,7 +70,7 @@ body {
 
 .container {
   width: 317px;
-  height: 317px;
+  height: 779px;
 
   background-color: var(--clr-neutral-900);
 }
