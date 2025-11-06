@@ -8,7 +8,6 @@ export default function Info({ avatar, name, website, email, linkedin }) {
       <h1 className="name">Rain Kalugdan</h1>
       <p className="role">Frontend Developer</p>
       <a
-        className="website-link"
         href={website}
         aria-label={`Open ${name}'s website`}
         target="_blank"
@@ -18,14 +17,14 @@ export default function Info({ avatar, name, website, email, linkedin }) {
       </a>
       <div className="social-links">
         <a
-          className="social-link"
+          className="social-link email"
           href={`mailto:${email}`}
           aria-label={`Send ${name} an email`}
         >
           <img className="social-icon" src={emailIcon} alt="" />
           <span>Email</span>
         </a>
-        <a href={linkedin}>
+        <a className="social-link linkedin" href={linkedin}>
           <img
             className="social-icon"
             src={linkedinIcon}
