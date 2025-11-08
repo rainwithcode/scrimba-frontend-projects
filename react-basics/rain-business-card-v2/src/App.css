@@ -48,6 +48,7 @@
   --size-100: 0.25rem;
   --size-200: 0.5rem;
   --size-300: 1rem;
+  --size-400: 1.5rem;
 }
 
 /* ===========================
@@ -89,6 +90,8 @@ a {
   align-items: center;
 
   gap: var(--size-100);
+
+  padding-bottom: var(--size-400);
 }
 
 .avatar {
@@ -144,4 +147,19 @@ a {
 
 .linkedin {
   background-color: var(--clr-accent-600);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 250px;
+  padding: var(--size-200);
+  margin: auto;
+}
+
+.section-title {
+  font-size: var(--fs-secondary-heading);
+  font-weight: var(--fw-bold);
 }
