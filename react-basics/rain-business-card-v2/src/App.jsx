@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Info from "./components/Info";
 import About from "./components/About";
+import Interests from "./components/Interests";
 import avatarUrl from "./assets/images/rain.jpg";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         description="As a frontend developer, I’m passionate about creating accessible, minimalist web experiences that make everyday life simpler. 
       I believe that organized systems are essential for productivity and growth, and I’m always looking for new ways to make digital experiences easier and more enjoyable."
       />
+      <Interests interests="Matcha lover. Curious learner. Podcast geek. Accessibility + female advocate." />
     </div>
   );
 }
