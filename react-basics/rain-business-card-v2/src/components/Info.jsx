@@ -15,16 +15,16 @@ export default function Info({ avatar, name, website, email, linkedin }) {
       >
         rainkalugdan.website
       </a>
-      <div className="social-links">
+      <div className="contact-links">
         <a
-          className="social-link email"
+          className="contact-link email"
           href={`mailto:${email}`}
           aria-label={`Send ${name} an email`}
         >
           <img className="social-icon" src={emailIcon} alt="" />
           <span>Email</span>
         </a>
-        <a className="social-link linkedin" href={linkedin}>
+        <a className="contact-link linkedin" href={linkedin}>
           <img
             className="social-icon"
             src={linkedinIcon}

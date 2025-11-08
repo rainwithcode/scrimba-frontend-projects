@@ -111,18 +111,18 @@ a {
   color: var(--clr-accent-500);
 }
 
-.social-links,
-.social-link {
+.contact-links,
+.contact-link {
   display: flex;
 }
 
-.social-links {
+.contact-links {
   gap: var(--size-300);
 
   margin-top: var(--size-200);
 }
 
-.social-link {
+.contact-link {
   justify-content: center;
   align-items: center;
 
