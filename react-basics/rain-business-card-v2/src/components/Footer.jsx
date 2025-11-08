@@ -11,6 +11,8 @@ export default function Footer({ name, github, twitter, facebook, instagram }) {
           className="social-link"
           href={github}
           aria-label={`Open ${name}'s GitHub`}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <img className="social-icon" src={githubIcon} />
         </a>
@@ -18,6 +20,8 @@ export default function Footer({ name, github, twitter, facebook, instagram }) {
           className="social-link"
           href={twitter}
           aria-label={`Open ${name}'s Twitter`}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <img className="social-icon" src={twitterIcon} />
         </a>
@@ -25,6 +29,8 @@ export default function Footer({ name, github, twitter, facebook, instagram }) {
           className="social-link"
           href={facebook}
           aria-label={`Open ${name}'s Facebook`}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <img className="social-icon" src={facebookIcon} />
         </a>
@@ -32,6 +38,8 @@ export default function Footer({ name, github, twitter, facebook, instagram }) {
           className="social-link"
           href={instagram}
           aria-label={`Open ${name}'s Instagram`}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <img className="social-icon" src={instagramIcon} />
         </a>
