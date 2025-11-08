@@ -15,6 +15,7 @@
   --clr-neutral-100: hsl(0, 0%, 100%);
   --clr-neutral-700: hsl(254, 6%, 58%);
   --clr-neutral-900: hsl(231, 12%, 12%);
+  --clr-neutral-1000: hsl(240, 6%, 9%);
 
   /* ===========================
      TYPOGRAPHY
@@ -49,6 +50,7 @@
   --size-200: 0.5rem;
   --size-300: 1rem;
   --size-400: 1.5rem;
+  --size-500: 2rem;
 }
 
 /* ===========================
@@ -67,27 +69,28 @@ a {
   cursor: pointer;
 }
 
-#root {
+#root,
+.card-info,
+.contact-link,
+.social-links {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+#root {
   height: 100%;
   width: 100%;
 }
 
 .container {
-  height: 779px;
   width: 317px;
 
   background-color: var(--clr-neutral-900);
 }
 
 .card-info {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
   gap: var(--size-100);
 
@@ -111,8 +114,7 @@ a {
   color: var(--clr-accent-500);
 }
 
-.contact-links,
-.contact-link {
+.contact-links {
   display: flex;
 }
 
@@ -123,9 +125,6 @@ a {
 }
 
 .contact-link {
-  justify-content: center;
-  align-items: center;
-
   gap: var(--size-100);
 
   font-weight: var(--fw-semi-bold);
@@ -162,4 +161,20 @@ a {
 .section-title {
   font-size: var(--fs-secondary-heading);
   font-weight: var(--fw-bold);
+}
+
+.footer {
+  padding: var(--size-300);
+  margin-top: var(--size-500);
+
+  background-color: var(--clr-neutral-1000);
+}
+
+.social-links {
+  gap: var(--size-200);
+}
+
+.social-icon {
+  width: 25px;
+  height: 24px;
 }
