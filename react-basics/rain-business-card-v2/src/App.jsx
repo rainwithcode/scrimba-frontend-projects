@@ -3,6 +3,7 @@ import "./App.css";
 import Info from "./components/Info";
 import About from "./components/About";
 import Interests from "./components/Interests";
+import Footer from "./components/Footer";
 import avatarUrl from "./assets/images/rain.jpg";
 
 function App() {
@@ -20,6 +21,13 @@ function App() {
       I believe that organized systems are essential for productivity and growth, and I’m always looking for new ways to make digital experiences easier and more enjoyable."
       />
       <Interests interests="Matcha lover. Curious learner. Podcast geek. Accessibility + female advocate." />
+      <Footer
+        name="Rain"
+        github="https://github.com/hello-rain"
+        twitter="https://x.com/"
+        facebook="https://www.facebook.com/"
+        instagram="https://www.instagram.com/"
+      />
     </div>
   );
 }
