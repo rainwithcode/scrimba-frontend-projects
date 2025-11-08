@@ -24,12 +24,14 @@ export default function Info({ avatar, name, website, email, linkedin }) {
           <img className="social-icon" src={emailIcon} alt="" />
           <span>Email</span>
         </a>
-        <a className="contact-link linkedin" href={linkedin}>
-          <img
-            className="social-icon"
-            src={linkedinIcon}
-            aria-label={`Visit ${name}'s Linkedin`}
-          ></img>
+        <a
+          className="contact-link linkedin"
+          aria-label={`Open ${name}'s Linkedin`}
+          href={linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="social-icon" src={linkedinIcon}></img>
           <span>Linkedin</span>
         </a>
       </div>
