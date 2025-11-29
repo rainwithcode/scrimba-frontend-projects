@@ -46,6 +46,10 @@ A collection of my projects from **Scrimba’s Frontend Developer Career Path**,
   - [Assembly Endgame](#assembly-endgame)
   - [Quizzical](#quizzical)
 
+- [Module 12 – Advanced React](#module-12--advanced-react)
+
+  - [Component Library](#component-library)
+
 ---
 
 ## Module 2 – Web Dev Basics
@@ -467,4 +471,37 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 - Show results after submission
 
 **Author:**
+Scrimba – [@hello-rain](https://github.com/hello-rain)
+
+---
+
+## Module 12 – Advanced React
+
+_Level up React skills with reusability, routing, and performance._
+
+### Component Library
+
+<p align="center"> 
+  <a href="https://component-library.netlify.app/" target="_blank"> 
+    <img src="images/component-library.png" alt="Component Library preview" style="width:45%;"/> 
+  </a> 
+</p>
+
+**Links:**
+
+- <a href="https://github.com/hello-rain/scrimba-frontend-projects/tree/main/advanced-react/component-library" target="_blank" rel="noopener noreferrer">Code</a>
+- <a href="https://component-library.netlify.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
+- [Back to Table of Contents](#table-of-contents)
+
+**Requirements:**
+
+- Build reusable React components: Badges, Banners, Cards, and Testimonials
+- Use composition patterns and compound components
+
+**Stretch Goals:**
+
+- Build Tooltip component
+- Build Toast component
+
+**Author:**  
 Scrimba – [@hello-rain](https://github.com/hello-rain)
