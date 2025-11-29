@@ -1,0 +1,5 @@
+.site-title {
+  color: var(--clr-accent-800);
+  font-size: var(--fs-900);
+  font-weight: var(--fw-bold);
+}
