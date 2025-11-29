@@ -7,8 +7,11 @@
      =========================== */
 
   /* Accent Colors */
+  --clr-accent-200: hsl(355, 90%, 92%);
+  --clr-accent-800: hsl(355, 79%, 58%);
 
   /* Primary Colors */
+  --clr-primary-100: hsl(36, 100%, 98%);
   --clr-primary-1000: hsl(221, 39%, 11%);
 
   /* Neutral Colors */
@@ -31,6 +34,7 @@
   --fs-600: 1rem;
   --fs-700: 1.125rem;
   --fs-800: 1.5rem;
+  --fs-900: 2rem;
 
   /* Font Roles */
 
@@ -47,4 +51,34 @@ body {
   font-family: var(--ff-body);
   font-size: 1rem;
   color: var(--clr-primary-1000);
+  background: linear-gradient(
+    90deg,
+    var(--clr-accent-200),
+    var(--clr-primary-100)
+  );
+  -webkit-background: linear-gradient(
+    90deg,
+    var(--clr-accent-200),
+    var(--clr-primary-100)
+  );
+  -moz-background: linear-gradient(
+    90deg,
+    var(--clr-accent-200),
+    var(--clr-primary-100)
+  );
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1em;
+}
+
+.site-title {
+  color: var(--clr-accent-800);
+  font-size: var(--fs-900);
+  font-weight: var(--fw-bold);
 }
