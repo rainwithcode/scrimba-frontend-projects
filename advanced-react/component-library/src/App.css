@@ -1,51 +1,5 @@
 /* ===========================
-   1. Root Design Tokens
-   =========================== */
-:root {
-  /* ===========================
-     COLOR PALETTE
-     =========================== */
-
-  /* Accent Colors */
-  --clr-accent-200: hsl(355, 90%, 92%);
-  --clr-accent-800: hsl(355, 79%, 58%);
-
-  /* Primary Colors */
-  --clr-primary-100: hsl(36, 100%, 98%);
-  --clr-primary-1000: hsl(221, 39%, 11%);
-
-  /* Neutral Colors */
-
-  /* ===========================
-     TYPOGRAPHY
-     =========================== */
-
-  /* Font Families */
-  --ff-primary: "Inter", sans-serif;
-  --ff-body: var(--ff-primary);
-
-  /* Font Weights */
-  --fw-regular: 400;
-  --fw-medium: 500;
-  --fw-bold: 700;
-
-  /* Font Sizes (Scale) */
-  --fs-500: 0.875rem;
-  --fs-600: 1rem;
-  --fs-700: 1.125rem;
-  --fs-800: 1.5rem;
-  --fs-900: 2rem;
-
-  /* Font Roles */
-
-  /* ===========================
-     SPACING SCALE
-     =========================== */
-  --size-400: 1em;
-}
-
-/* ===========================
-   1. General Styles
+   General Styles
    =========================== */
 
 body {
@@ -79,8 +33,4 @@ body {
   padding: var(--size-400);
 }
 
-.site-title {
-  color: var(--clr-accent-800);
-  font-size: var(--fs-900);
-  font-weight: var(--fw-bold);
-}
+
