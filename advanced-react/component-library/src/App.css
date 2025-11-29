@@ -41,6 +41,7 @@
   /* ===========================
      SPACING SCALE
      =========================== */
+  --size-400: 1em;
 }
 
 /* ===========================
@@ -51,6 +52,7 @@ body {
   font-family: var(--ff-body);
   font-size: 1rem;
   color: var(--clr-primary-1000);
+
   background: linear-gradient(
     90deg,
     var(--clr-accent-200),
@@ -74,7 +76,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  padding: 1em;
+  padding: var(--size-400);
 }
 
 .site-title {
