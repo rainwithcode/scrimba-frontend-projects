@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 import Badge from "./components/badges/Badge";
 
 export default function App() {
-  const colors = [
+  const badgeColors = [
     "gray",
     "red",
     "yellow",
@@ -23,13 +23,13 @@ export default function App() {
         <div>
           <h2 className="component-title">Square Badges</h2>
           <div className="badge-grid">
-            {colors.map((color) => (
+            {badgeColors.map((color) => (
               <Badge shape="square" color={color} key={`${color}-square`} />
             ))}
           </div>
           <h2 className="component-title">Pill Badges</h2>
           <div className="badge-grid">
-            {colors.map((color) => (
+            {badgeColors.map((color) => (
               <Badge shape="pill" color={color} key={`${color}-pill`} />
             ))}
           </div>
