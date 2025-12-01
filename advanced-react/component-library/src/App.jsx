@@ -1,7 +1,10 @@
 import { useState } from "react";
-import "./App.css";
+
 import Header from "./components/header/Header";
 import Badge from "./components/badges/Badge";
+import Banner from "./components/banner/Banner";
+
+import "./App.css";
 
 export default function App() {
   const badgeColors = [
