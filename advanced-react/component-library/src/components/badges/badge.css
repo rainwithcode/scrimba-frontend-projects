@@ -1,0 +1,43 @@
+.badge {
+  padding: var(--size-100) var(--size-200);
+}
+
+.square {
+  border-radius: 4px;
+}
+
+.pill {
+  border-radius: 12px;
+}
+
+.gray {
+  background-color: hsl(220, 14%, 96%);
+}
+
+.red {
+  background-color: hsl(0, 93%, 94%);
+}
+
+.yellow {
+  background-color: hsl(48, 96%, 89%);
+}
+
+.green {
+  background-color: hsl(149, 80%, 90%);
+}
+
+.blue {
+  background-color: hsl(214, 95%, 93%);
+}
+
+.indigo {
+  background-color: hsl(226, 100%, 94%);
+}
+
+.purple {
+  background-color: hsl(251, 91%, 95%);
+}
+
+.pink {
+  background-color: hsl(326, 78%, 95%);
+}
