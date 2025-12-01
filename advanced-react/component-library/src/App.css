@@ -33,4 +33,21 @@ body {
   padding: var(--size-400);
 }
 
+.header {
+  margin-bottom: var(--size-200);
+}
 
+.component-title {
+  font-size: var(--fs-800);
+  font-weight: var(--fw-bold);
+  text-align: center;
+
+  margin-bottom: var(--size-400);
+}
+
+.badge-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-400);
+  margin-bottom: var(--size-500);
+}
