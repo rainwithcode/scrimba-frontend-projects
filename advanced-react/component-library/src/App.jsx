@@ -18,7 +18,7 @@ export default function App() {
     "pink",
   ];
 
-  const badgeTypes = ["square", "pill"];
+  const badgeVariants = ["square", "pill"];
 
   return (
     <div className="container">
@@ -26,14 +26,19 @@ export default function App() {
       <main>
         {/* --- Badges --- */}
         {/* Display square and pill badges */}
-        {badgeTypes.map((shape) => (
+        {badgeVariants.map((shapeVariant) => (
           <div>
             <h2 className="component-title">
-              {shape.charAt(0).toUpperCase() + shape.slice(1)} Badges
+              {shapeVariant.charAt(0).toUpperCase() + shapeVariant.slice(1)}{" "}
+              Badges
             </h2>
             <div className="badge-grid">
               {badgeColors.map((color) => (
-                <Badge shape={shape} color={color} key={`${color}-${shape}`} />
+                <Badge
+                  shapeVariant={shapeVariant}
+                  color={color}
+                  key={`${color}-${shapeVariant}`}
+                />
               ))}
             </div>
           </div>
