@@ -18,25 +18,26 @@ export default function App() {
     "pink",
   ];
 
+  const badgeTypes = ["square", "pill"];
+
   return (
     <div className="container">
       <Header />
       <main>
         {/* --- Badges --- */}
-        <div>
-          <h2 className="component-title">Square Badges</h2>
-          <div className="badge-grid">
-            {badgeColors.map((color) => (
-              <Badge shape="square" color={color} key={`${color}-square`} />
-            ))}
+        {/* Display square and pill badges */}
+        {badgeTypes.map((shape) => (
+          <div>
+            <h2 className="component-title">
+              {shape.charAt(0).toUpperCase() + shape.slice(1)} Badges
+            </h2>
+            <div className="badge-grid">
+              {badgeColors.map((color) => (
+                <Badge shape={shape} color={color} key={`${color}-${shape}`} />
+              ))}
+            </div>
           </div>
-          <h2 className="component-title">Pill Badges</h2>
-          <div className="badge-grid">
-            {badgeColors.map((color) => (
-              <Badge shape="pill" color={color} key={`${color}-pill`} />
-            ))}
-          </div>
-        </div>
+        ))}
       </main>
     </div>
   );
