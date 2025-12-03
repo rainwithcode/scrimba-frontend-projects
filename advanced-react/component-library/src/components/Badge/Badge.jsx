@@ -1,9 +1,5 @@
 import "./badge.css";
 
-export default function Badge({
-  shape = "square",
-  color = "gray",
-  text = "Badge",
-}) {
-  return <span className={`badge ${color} ${shape}`}>{text}</span>;
+export default function Badge({ children, shape = "square", color = "gray" }) {
+  return <span className={`badge ${color} ${shape}`}>{children}</span>;
 }
