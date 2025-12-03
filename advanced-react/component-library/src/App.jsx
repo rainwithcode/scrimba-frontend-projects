@@ -97,6 +97,13 @@ export default function App() {
             </div>
           </div>
         ))}
+        {/* --- Card --- */}
+        {/* Display card in default and hover state */}
+        <h2 className="component-title">Responsive Card</h2>
+        <Card title="Easy Deployment">
+          Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
+          magna sit morbi lobortis.
+        </Card>
       </main>
     </div>
   );
