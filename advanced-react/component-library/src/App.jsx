@@ -85,7 +85,7 @@ export default function App() {
             <div className="banner-grid">
               {banners.map((banner) => (
                 <Banner
-                  variant={lineVariant}
+                  layout={lineVariant}
                   status={banner.status}
                   title={banner.title}
                   {...(lineVariant === "multiline"

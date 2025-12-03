@@ -13,13 +13,13 @@ const defaultIcons = {
 };
 
 export default function Banner({
-  variant = "single",
+  layout = "single",
   status = "neutral",
   title = "Update available",
   message,
 }) {
   return (
-    <div className={`banner ${variant} ${status}`}>
+    <div className={`banner ${layout} ${status}`}>
       <div className="banner-header">
         <img src={defaultIcons[status]} aria-hidden="true" />
         <span className="banner-title">{title}</span>
