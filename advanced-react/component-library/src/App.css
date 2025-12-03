@@ -47,7 +47,10 @@ body {
 
 .badge-grid {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: var(--size-400);
+  
   margin-bottom: var(--size-500);
 }
