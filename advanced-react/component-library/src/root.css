@@ -12,7 +12,7 @@
   --clr-accent-800: hsl(355, 79%, 58%);
 
   /* Primary Colors */
-  --clr-primary-100: hsl(36, 100%, 98%);
+  --clr-primary-100: hsl(210, 20%, 98%);
   --clr-primary-1000: hsl(221, 39%, 11%);
 
   /* Neutral Colors */
@@ -48,4 +48,6 @@
   --size-500: 1.25em;
   --size-600: 1.5em;
   --size-700: 1.75em;
+  --size-800: 2em;
+  --size-900: 2.25em;
 }
