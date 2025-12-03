@@ -88,11 +88,10 @@ export default function App() {
                   layout={lineVariant}
                   status={banner.status}
                   title={banner.title}
-                  {...(lineVariant === "multiline"
-                    ? { message: banner.message }
-                    : {})}
                   key={`banner-${lineVariant}-${banner.status}`}
-                />
+                >
+                  {lineVariant === "multiline" ? banner.message : null}
+                </Banner>
               ))}
             </div>
           </div>

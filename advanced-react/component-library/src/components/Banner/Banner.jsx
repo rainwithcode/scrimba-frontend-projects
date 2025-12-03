@@ -13,10 +13,10 @@ const defaultIcons = {
 };
 
 export default function Banner({
+  children,
   layout = "single",
   status = "neutral",
   title = "Update available",
-  message,
 }) {
   return (
     <div className={`banner ${layout} ${status}`}>
@@ -24,7 +24,7 @@ export default function Banner({
         <img src={defaultIcons[status]} aria-hidden="true" />
         <span className="banner-title">{title}</span>
       </div>
-      {message && <p className="banner-message">{message}</p>}
+      {children && <p className="banner-message">{children}</p>}
     </div>
   );
 }
