@@ -64,10 +64,12 @@ export default function App() {
             <div className="badge-grid">
               {badgeColors.map((color) => (
                 <Badge
-                  shapeVariant={shapeVariant}
+                  shape={shapeVariant}
                   color={color}
                   key={`badge-${shapeVariant}-${color}`}
-                />
+                >
+                  Badge
+                </Badge>
               ))}
             </div>
           </div>
