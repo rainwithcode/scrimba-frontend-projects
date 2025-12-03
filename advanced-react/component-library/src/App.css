@@ -51,6 +51,14 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: var(--size-400);
-  
+
+  margin-bottom: var(--size-500);
+}
+
+.banner-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-400);
+
   margin-bottom: var(--size-500);
 }

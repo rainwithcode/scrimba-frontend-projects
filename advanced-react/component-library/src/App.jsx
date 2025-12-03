@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import Badge from "./components/badges/Badge";
+import Badge from "./components/badge/Badge";
 import Banner from "./components/banner/Banner";
 import Header from "./components/header/Header";
 
