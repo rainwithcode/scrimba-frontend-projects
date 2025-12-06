@@ -4,10 +4,10 @@ import quotesIcon from "../../assets/quotes-icon.svg";
 export default function Testimonial({
   imageMobile,
   imageDesktop,
-  author,
-  role,
+  author = "Jane Doe",
+  role = "Amazon, CTO",
   companyLogo,
-  children,
+  children = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 }) {
   const testimonialWithImage = (
     <div className="testimonial testimonial--image">
