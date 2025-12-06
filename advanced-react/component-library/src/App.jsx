@@ -6,8 +6,9 @@ import Card from "./components/Card/Card";
 import Header from "./components/Header/Header";
 import Testimonial from "./components/Testimonial/Testimonial";
 
-import avatarUrl from "./assets/may-andersons.png";
-import logoUrl from "./assets/workcation-logo.png";
+import testimonialDesktopUrl from "./assets/testimonial-desktop.png";
+import testimonialMobileUrl from "./assets/testimonial-mobile.png";
+import workcationLogoUrl from "./assets/workcation-logo.png";
 
 import "./App.css";
 
@@ -112,10 +113,11 @@ export default function App() {
         {/* Display testimonials with and without photos */}
         <h2 className="component-title">Testimonials</h2>
         <Testimonial
-          image={avatarUrl}
+          imageMobile={testimonialMobileUrl}
+          imageDesktop={testimonialDesktopUrl}
           author="May Andersons"
           role="Workcation, CTO"
-          companyLogo={logoUrl}
+          companyLogo={workcationLogoUrl}
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna
           nulla vitae laoreet augue. Amet feugiat est integer dolor auctor
