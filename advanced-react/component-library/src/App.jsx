@@ -127,6 +127,7 @@ export default function App() {
           imageMobile={testimonial.imageMobile}
           imageDesktop={testimonial.imageDesktop}
           author={testimonial.author}
+          company={testimonial.company}
           role={testimonial.role}
         >
           {testimonial.testimonial}
