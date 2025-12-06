@@ -3,7 +3,11 @@ import { useState } from "react";
 import Badge from "./components/Badge/Badge";
 import Banner from "./components/Banner/Banner";
 import Card from "./components/Card/Card";
-import Header from "./components/header/Header";
+import Header from "./components/Header/Header";
+import Testimonial from "./components/Testimonial/Testimonial";
+
+import avatarUrl from "./assets/may-andersons.png";
+import logoUrl from "./assets/workcation-logo.png";
 
 import "./App.css";
 
@@ -104,6 +108,19 @@ export default function App() {
           Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
           magna sit morbi lobortis.
         </Card>
+        {/* --- Testimonials --- */}
+        {/* Display testimonials with and without photos */}
+        <h2 className="component-title">Testimonials</h2>
+        <Testimonial
+          image={avatarUrl}
+          author="May Andersons"
+          role="Workcation, CTO"
+          companyLogo={logoUrl}
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna
+          nulla vitae laoreet augue. Amet feugiat est integer dolor auctor
+          adipiscing nunc urna, sit.
+        </Testimonial>
       </main>
     </div>
   );
