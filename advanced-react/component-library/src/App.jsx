@@ -55,6 +55,16 @@ export default function App() {
 
   const bannerVariants = ["multiline", "single"];
 
+  const testimonial = {
+    imageMobile: testimonialMobileUrl,
+    imageDesktop: testimonialDesktopUrl,
+    author: "May Andersons",
+    role: "Workcation, CTO",
+    companyLogo: workcationLogoUrl,
+    testimonial:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.",
+  };
+
   return (
     <div className="container">
       <Header />
@@ -113,15 +123,12 @@ export default function App() {
         {/* Display testimonials with and without photos */}
         <h2 className="component-title">Testimonials</h2>
         <Testimonial
-          imageMobile={testimonialMobileUrl}
-          imageDesktop={testimonialDesktopUrl}
-          author="May Andersons"
-          role="Workcation, CTO"
-          companyLogo={workcationLogoUrl}
+          imageMobile={testimonial.imageMobile}
+          imageDesktop={testimonial.imageDesktop}
+          author={testimonial.author}
+          role={testimonial.role}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna
-          nulla vitae laoreet augue. Amet feugiat est integer dolor auctor
-          adipiscing nunc urna, sit.
+          {testimonial.testimonial}
         </Testimonial>
       </main>
     </div>
