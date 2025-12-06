@@ -59,7 +59,8 @@ export default function App() {
     imageMobile: testimonialMobileUrl,
     imageDesktop: testimonialDesktopUrl,
     author: "May Andersons",
-    role: "Workcation, CTO",
+    company: "Workcation",
+    role: "CTO",
     companyLogo: workcationLogoUrl,
     testimonial:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.",
