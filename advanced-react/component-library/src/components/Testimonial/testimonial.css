@@ -39,3 +39,25 @@
 .testimonial-author {
   font-weight: var(--fw-bold);
 }
+
+@media (max-width: 815px) {
+  .testimonial--image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 5em;
+    margin-top: 6em;
+  }
+
+  .testimonial-image {
+    top: -5em;
+    width: 344px;
+    height: 206px;
+  }
+  .testimonial--image .testimonial-content {
+    padding: var(--size-1000) 0 var(--size-500);
+    margin: 0;
+    max-width: 500px;
+  }
+}

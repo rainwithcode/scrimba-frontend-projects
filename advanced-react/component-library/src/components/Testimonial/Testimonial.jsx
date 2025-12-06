@@ -2,7 +2,8 @@ import "./testimonial.css";
 import quotesIcon from "../../assets/quotes-icon.svg";
 
 export default function Testimonial({
-  image,
+  imageMobile,
+  imageDesktop,
   author,
   role,
   companyLogo,
@@ -10,7 +11,17 @@ export default function Testimonial({
 }) {
   const testimonialWithImage = (
     <div className="testimonial testimonial--image">
-      <img className="testimonial-image" src={image} alt={author} />
+      <picture>
+        {imageMobile && (
+          <source srcSet={imageMobile} media="(max-width: 815px)" />
+        )}
+        <img
+          className="testimonial-image"
+          src={imageDesktop}
+          alt={author}
+          loading="lazy"
+        />
+      </picture>
       <div className="testimonial-content">
         <img
           className="testimonial-quotes"
@@ -25,5 +36,5 @@ export default function Testimonial({
     </div>
   );
 
-  return image ? testimonialWithImage : testimonialWithoutImage;
+  return imageDesktop ? testimonialWithImage : testimonialWithoutImage;
 }
