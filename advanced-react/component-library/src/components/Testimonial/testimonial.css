@@ -1,7 +1,7 @@
 .testimonial {
   position: relative;
 
-  padding: var(--size-1000);
+  padding: 5em;
   margin-top: 4.375em;
 }
 
@@ -76,6 +76,7 @@
     width: 344px;
     height: 206px;
   }
+
   .testimonial--image .testimonial-content {
     padding: var(--size-1000) 0 var(--size-500);
     margin: 0;
