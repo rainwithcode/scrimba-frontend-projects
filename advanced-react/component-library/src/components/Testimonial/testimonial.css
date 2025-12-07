@@ -5,10 +5,6 @@
   margin-top: 4.375em;
 }
 
-.testimonial--image {
-  background-color: hsl(227, 67%, 43%);
-}
-
 .testimonial-image {
   position: absolute;
   top: -3em;
@@ -37,16 +33,20 @@
   font-weight: var(--fw-bold);
 }
 
-.testimonial--image .testimonial-content {
-  margin-left: 25em;
-
-  color: var(--clr-primary-100);
-}
-
 .testimonial-text {
   max-width: 800px;
   padding: var(--size-500) 0;
   font-size: var(--fs-700);
+}
+
+.testimonial--image {
+  background-color: hsl(227, 67%, 43%);
+}
+
+.testimonial--image .testimonial-content {
+  margin-left: 25em;
+
+  color: var(--clr-primary-100);
 }
 
 .testimonial--no-image {
