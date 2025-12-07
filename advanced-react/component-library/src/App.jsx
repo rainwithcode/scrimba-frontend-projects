@@ -132,6 +132,14 @@ export default function App() {
         >
           {testimonial.testimonial}
         </Testimonial>
+        <Testimonial
+          companyLogo={testimonial.companyLogo}
+          author={testimonial.author}
+          company={testimonial.company}
+          role={testimonial.role}
+        >
+          {testimonial.testimonial}
+        </Testimonial>
       </main>
     </div>
   );
