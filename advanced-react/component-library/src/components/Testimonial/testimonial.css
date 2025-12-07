@@ -14,6 +14,14 @@
   height: 464px;
 }
 
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--size-100);
+}
+
 .testimonial-company {
   width: 180px;
 }
@@ -22,13 +30,6 @@
   align-self: normal;
   width: 44px;
   height: 35px;
-}
-
-.testimonial-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: var(--size-100);
 }
 
 .testimonial-author {
@@ -46,8 +47,6 @@
 }
 
 .testimonial--image .testimonial-content {
-  align-items: center;
-
   margin-left: 25em;
 
   color: var(--clr-primary-100);
@@ -55,10 +54,6 @@
 
 .testimonial--no-image {
   background-color: var(--clr-primary-100);
-}
-
-.testimonial--no-image .testimonial-content {
-  align-items: center;
 }
 
 @media (max-width: 815px) {
