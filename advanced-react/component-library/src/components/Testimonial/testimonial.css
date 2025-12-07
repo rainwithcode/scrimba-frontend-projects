@@ -80,3 +80,9 @@
     max-width: 500px;
   }
 }
+
+@media (max-width: 411px) {
+  .testimonial-text {
+    font-size: var(--fs-700);
+  }
+}

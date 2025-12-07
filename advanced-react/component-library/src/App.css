@@ -7,21 +7,21 @@ body {
   font-size: 1rem;
   color: var(--clr-primary-1000);
 
-    background: linear-gradient(
-      90deg,
-      var(--clr-accent-200),
-      var(--clr-primary-200)
-    );
-    -webkit-background: linear-gradient(
-      90deg,
-      var(--clr-accent-200),
-      var(--clr-primary-200)
-    );
-    -moz-background: linear-gradient(
-      90deg,
-      var(--clr-accent-200),
-      var(--clr-primary-200)
-    );
+  background: linear-gradient(
+    90deg,
+    var(--clr-accent-200),
+    var(--clr-primary-200)
+  );
+  -webkit-background: linear-gradient(
+    90deg,
+    var(--clr-accent-200),
+    var(--clr-primary-200)
+  );
+  -moz-background: linear-gradient(
+    90deg,
+    var(--clr-accent-200),
+    var(--clr-primary-200)
+  );
   -webkit-background: linear-gradient(
     90deg,
     var(--clr-accent-200),
@@ -71,4 +71,10 @@ body {
   gap: var(--size-400);
 
   margin-bottom: var(--size-500);
+}
+
+@media (max-width: 411px) {
+  .component-title {
+    font-size: var(--fs-600);
+  }
 }

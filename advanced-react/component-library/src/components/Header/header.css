@@ -3,3 +3,9 @@
   font-size: var(--fs-900);
   font-weight: var(--fw-bold);
 }
+
+@media (max-width: 411px) {
+  .site-title {
+    font-size: var(--fs-800);
+  }
+}
