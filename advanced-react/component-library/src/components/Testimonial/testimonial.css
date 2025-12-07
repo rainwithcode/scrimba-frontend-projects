@@ -68,7 +68,8 @@
 
   .testimonial-image {
     top: -5em;
-    right: 10em;
+    left: 50%;
+    transform: translateX(-50%);
     width: 344px;
     height: 206px;
   }
