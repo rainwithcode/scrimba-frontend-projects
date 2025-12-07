@@ -22,18 +22,21 @@
   height: 35px;
 }
 
-.testimonial--image .testimonial-content {
+.testimonial-content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: var(--size-100);
+}
 
+.testimonial--image .testimonial-content {
   margin-left: 25em;
 
-  color: hsl(0, 0%, 100%);
+  color: var(--clr-primary-100);
 }
 
 .testimonial--image .testimonial-text {
-  max-width: 500px;
+  max-width: 800px;
   padding: var(--size-500) 0;
   font-size: var(--fs-700);
 }
