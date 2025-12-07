@@ -482,7 +482,7 @@ _Level up React skills with reusability, routing, and performance._
 ### Component Library
 
 <p align="center"> 
-  <a href="https://component-library.netlify.app/" target="_blank"> 
+  <a href="https://simple-component-library.netlify.app/" target="_blank"> 
     <img src="images/component-library.png" alt="Component Library preview" style="width:45%;"/> 
   </a> 
 </p>
@@ -490,7 +490,7 @@ _Level up React skills with reusability, routing, and performance._
 **Links:**
 
 - <a href="https://github.com/hello-rain/scrimba-frontend-projects/tree/main/advanced-react/component-library" target="_blank" rel="noopener noreferrer">Code</a>
-- <a href="https://component-library.netlify.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
+- <a href="https://simple-component-library.netlify.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
 - [Back to Table of Contents](#table-of-contents)
 
 **Requirements:**
