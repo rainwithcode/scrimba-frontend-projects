@@ -41,7 +41,7 @@ export default function Testimonial({
     <div className="testimonial testimonial--no-image">
       <div className="testimonial-content">
         <img className="testimonial-company" src={companyLogo} />
-        <p className="testimonial-text">{children}</p>
+        <p className="testimonial-text">{`"${children}"`}</p>
         <div className="testimonial-author">{author}</div>
         <div className="testimonial-role">{`${company}, ${role}`}</div>
       </div>
