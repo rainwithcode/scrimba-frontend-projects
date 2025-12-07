@@ -5,7 +5,8 @@ export default function Testimonial({
   imageMobile,
   imageDesktop,
   author = "Jane Doe",
-  role = "Amazon, CTO",
+  company = "Amazon",
+  role = "CTO",
   companyLogo,
   children = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 }) {
@@ -31,7 +32,18 @@ export default function Testimonial({
         />
         <p className="testimonial-text">{children}</p>
         <div className="testimonial-author">{author}</div>
-        <div className="testimonial-role">{role}</div>
+        <div className="testimonial-role">{`${company}, ${role}`}</div>
+      </div>
+    </div>
+  );
+
+  const testimonialWithoutImage = (
+    <div className="testimonial testimonial--no-image">
+      <div className="testimonial-content">
+        <img className="testimonial-company" src={companyLogo} />
+        <p className="testimonial-text">{children}</p>
+        <div className="testimonial-author">{author}</div>
+        <div className="testimonial-role">{`${company}, ${role}`}</div>
       </div>
     </div>
   );
