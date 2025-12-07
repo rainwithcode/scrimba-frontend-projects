@@ -3,6 +3,7 @@
 
   padding: 5em;
   margin-top: 4.375em;
+  text-align: center;
 }
 
 .testimonial-image {
@@ -18,6 +19,7 @@
 }
 
 .testimonial-quotes {
+  align-self: normal;
   width: 44px;
   height: 35px;
 }
@@ -44,6 +46,8 @@
 }
 
 .testimonial--image .testimonial-content {
+  align-items: center;
+
   margin-left: 25em;
 
   color: var(--clr-primary-100);
@@ -55,10 +59,6 @@
 
 .testimonial--no-image .testimonial-content {
   align-items: center;
-}
-
-.testimonial--no-image .testimonial-text {
-  text-align: center;
 }
 
 @media (max-width: 815px) {
@@ -73,6 +73,7 @@
 
   .testimonial-image {
     top: -5em;
+    right: 10em;
     width: 344px;
     height: 206px;
   }
