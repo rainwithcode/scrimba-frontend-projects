@@ -49,6 +49,7 @@ A collection of my projects from **Scrimba’s Frontend Developer Career Path**,
 - [Module 12 – Advanced React](#module-12--advanced-react)
 
   - [Component Library](#component-library)
+  - [Van Life](#van-life)
 
 ---
 
@@ -504,4 +505,28 @@ _Level up React skills with reusability, routing, and performance._
 - Build Toast component
 
 **Author:**  
+Scrimba – [@hello-rain](https://github.com/hello-rain)
+
+---
+
+### Van Life
+
+<p align="center"> <a href="https://true-van-life.netlify.app/vans" target="_blank"> <img src="images/van-life.png" alt="Van Life preview" style="width:45%;"/> </a> </p>
+
+**Links:**
+
+- <a href="https://github.com/hello-rain/scrimba-frontend-projects/tree/main/advanced-react/van-life" target="_blank" rel="noopener noreferrer">Code</a>
+- <a href="https://true-van-life.netlify.app/vans" target="_blank" rel="noopener noreferrer">Live Site</a>
+- [Back to Table of Contents](#table-of-contents)
+
+**Requirements:**
+
+- Implement **10 routes** covering public pages and the host area.
+- **Van filters** by type (e.g., simple, rugged, luxury) on the vans listing.
+- **Active nav styling** to indicate the current route.
+- **Host area pages**: dashboard, income, vans, pricing (and related host pages).
+- Display relevant information under `/host/` (summary widgets, host vans list, income, etc.).
+- Replace fake/local seed data with **Firebase** as the data source (Firestore + Auth).
+
+**Author:**
 Scrimba – [@hello-rain](https://github.com/hello-rain)
