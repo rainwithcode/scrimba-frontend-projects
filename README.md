@@ -511,7 +511,7 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 
 ### Van Life
 
-<p align="center"> <a href="https://true-van-life.netlify.app/vans" target="_blank"> <img src="images/van-life.png" alt="Van Life preview" style="width:45%;"/> </a> </p>
+<p align="center"> <a href="https://true-van-life.netlify.app" target="_blank"> <img src="images/van-life.png" alt="Van Life preview" style="width:45%;"/> </a> </p>
 
 **Links:**
 
