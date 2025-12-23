@@ -69,8 +69,8 @@ _Learn the basics of HTML and CSS._
 
 **Requirements:**
 
-- Build from scratch
-- Use classes, Flexbox, background images, and color palette
+- **Build** from scratch
+- Use **classes**, **Flexbox**, **background images**, and **color palette**
 
 **Stretch Goals:**
 
@@ -95,10 +95,10 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 
 **Requirements:**
 
-- Create a personal digital card layout
-- Include name, title, and contact info
-- Use Flexbox for layout
-- Apply color scheme and custom font
+- **Create** a **personal digital card layout**
+- Include **name**, **title**, and **contact info**
+- Use **Flexbox** for layout
+- Apply **color scheme** and **custom font**
 
 **Stretch Goals:**
 
@@ -122,8 +122,8 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 
 **Requirements:**
 
-- Build from scratch
-- Use Flexbox, images, and color palette
+- **Build** from scratch
+- Use **Flexbox**, **images**, and **color palette**
 
 **Stretch Goals:**
 
@@ -152,10 +152,10 @@ _Combine HTML, CSS, and JavaScript into interactive projects._
 
 **Requirements:**
 
-- Make it interactive
-- Add sound or counter
-- Style with CSS
-- Add max-width and responsive layout
+- Make it **interactive**
+- Add **sound** or **counter**
+- Style with **CSS**
+- Add **max-width** and **responsive layout**
 
 **Author:**
 Scrimba – [@hello-rain](https://github.com/hello-rain)
@@ -174,9 +174,9 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 
 **Requirements:**
 
-- Add buttons to increase or reset score
-- Display current score dynamically
-- Style using Flexbox
+- Add **buttons** to increase or **reset score**
+- Display **current score** dynamically
+- Style using **Flexbox**
 
 **Author:**
 Scrimba – [@hello-rain](https://github.com/hello-rain)
@@ -195,8 +195,8 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 
 **Requirements:**
 
-- Generate two random passwords
-- Passwords are 15 characters long
+- Generate **two random passwords**
+- **Passwords** are **15 characters long**
 
 **Stretch Goals:**
 
@@ -221,9 +221,9 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 
 **Requirements:**
 
-- Follow design spec
-- Convert units between metric and imperial
-- Round to 3 decimals
+- Follow **design spec**
+- Convert **units** between **metric** and **imperial**
+- Round to **3 decimals**
 
 **Author:**
 Scrimba – [@hello-rain](https://github.com/hello-rain)
@@ -246,9 +246,9 @@ _Level up CSS skills._
 
 **Requirements:**
 
-- Create post layout
-- Use semantic HTML
-- Add hover effects
+- Create **post layout**
+- Use **semantic HTML**
+- Add **hover effects**
 
 **Stretch Goals:**
 
@@ -275,9 +275,9 @@ _Level up JavaScript skills._
 
 **Requirements:**
 
-- Render menu using JS
-- Add/remove items
-- Include payment modal with validation
+- Render **menu** using **JS**
+- **Add**/**Remove** items
+- Include **payment modal** with **validation**
 
 **Author:**
 Scrimba – [@hello-rain](https://github.com/hello-rain)
@@ -304,9 +304,9 @@ _Level up Responsive Design skills._
 
 **Requirements:**
 
-- Build a responsive NFT preview card component
-- Use semantic HTML and clean CSS structure
-- Follow the design layout provided
+- Build a **responsive NFT preview card component**
+- Use **semantic HTML** and **clean CSS structure**
+- Follow the **design layout** provided
 
 **Author:**  
 Scrimba – [@hello-rain](https://github.com/hello-rain)
@@ -325,9 +325,9 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 
 **Requirements:**
 
-- Build responsive layout
-- Use media queries
-- Include blog-like posts
+- Build **responsive layout**
+- Use **media queries**
+- Include **blog-like posts**
 
 **Author:**
 Scrimba – [@hello-rain](https://github.com/hello-rain)
@@ -350,8 +350,8 @@ _Learn to use APIs._
 
 **Requirements:**
 
-- Fetch data from The Color API
-- Display color scheme and hex values
+- Fetch **data** from **The Color API**
+- Display **color scheme** and **hex values**
 
 **Stretch Goals:**
 
@@ -374,9 +374,9 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 
 **Requirements:**
 
-- Build two pages: search & watchlist
-- Fetch from OMDB API
-- Store movies in local storage
+- Build **two pages**: **search** & **watchlist**
+- Fetch from **OMDB API**
+- Store **movies** in **local storage**
 
 **Author:**
 Scrimba – [@hello-rain](https://github.com/hello-rain)
@@ -403,10 +403,10 @@ _Learn the basics of React._
 
 **Requirements:**
 
-- Build a personal business card using React components
-- Display profile photo, name, role, and contact buttons
-- Include an "About" and "Interests" section
-- Use basic CSS for layout and styling
+- Build a **personal business card** using **React components**
+- Display **profile photo**, **name**, **role**, and **contact buttons**
+- Include an **"About"** and **"Interests"** section
+- Use **basic CSS** for layout and styling
 
 **Author:**  
 Scrimba – [@hello-rain](https://github.com/hello-rain)
@@ -425,9 +425,9 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 
 **Requirements:**
 
-- Roll dice until all match
-- Track roll count and timer
-- Add confetti on win
+- Roll **dice** until all **match**
+- Track **roll count** and **timer**
+- Add **confetti** on win
 
 **Author:**
 Scrimba – [@hello-rain](https://github.com/hello-rain)
@@ -446,8 +446,8 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 
 **Requirements:**
 
-- Practice React composition
-- Manage state with props and hooks
+- Practice **React composition**
+- Manage **state** with **props** and **hooks**
 
 **Author:**
 Scrimba – [@hello-rain](https://github.com/hello-rain)
@@ -466,10 +466,10 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 
 **Requirements:**
 
-- Two screens (start & quiz)
-- Fetch 5 questions from API
-- Track correct answers
-- Show results after submission
+- Two **screens** (start & quiz)
+- Fetch **5 questions** from **API**
+- Track **correct answers**
+- Show **results** after submission
 
 **Author:**
 Scrimba – [@hello-rain](https://github.com/hello-rain)
@@ -496,8 +496,8 @@ _Level up React skills with reusability, routing, and performance._
 
 **Requirements:**
 
-- Build reusable React components: Badges, Banners, Cards, and Testimonials
-- Use composition patterns and compound components
+- Build **reusable React components**: **Badges**, **Banners**, **Cards**, and **Testimonials**
+- Use **composition patterns** and **compound components**
 
 **Stretch Goals:**
 
@@ -516,16 +516,16 @@ Scrimba – [@hello-rain](https://github.com/hello-rain)
 **Links:**
 
 - <a href="https://github.com/hello-rain/scrimba-frontend-projects/tree/main/advanced-react/van-life" target="_blank" rel="noopener noreferrer">Code</a>
-- <a href="https://true-van-life.netlify.app/vans" target="_blank" rel="noopener noreferrer">Live Site</a>
+- <a href="https://true-van-life.netlify.app" target="_blank" rel="noopener noreferrer">Live Site</a>
 - [Back to Table of Contents](#table-of-contents)
 
 **Requirements:**
 
 - Implement **10 routes** covering public pages and the host area.
-- **Van filters** by type (e.g., simple, rugged, luxury) on the vans listing.
+- **Van filters** by type (e.g., **simple**, **rugged**, **luxury**) on the vans listing.
 - **Active nav styling** to indicate the current route.
-- **Host area pages**: dashboard, income, vans, pricing (and related host pages).
-- Display relevant information under `/host/` (summary widgets, host vans list, income, etc.).
+- **Host area pages**: **dashboard**, **income**, **vans**, **pricing** (and related host pages).
+- Display relevant information under **/host/** (**summary widgets**, **host vans list**, **income**, etc.).
 - Replace fake/local seed data with **Firebase** as the data source (Firestore + Auth).
 
 **Author:**
